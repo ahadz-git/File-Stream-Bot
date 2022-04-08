@@ -1,7 +1,7 @@
 FROM ubuntu:20.04
 
 RUN apt-get -y update && apt-get -y upgrade && \
-        apt-get install -y python3 python3-pip
+        apt-get install -y git python3 python3-pip
 
 RUN git clone https://github.com/ahadz-git/TG-FileStreamBot.git /root/bot
 
